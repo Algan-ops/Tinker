@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.fond {
+    background-image: url(/assets/img/blog-bg.jpg);
+}
+
+.map {
+    width: 100vw;
+    height: 50vh;
+}
+
+.logoreso a i {
+    transition: font-size 0.3s ease; 
+  }
+  
+  .logoreso a:hover i {
+    font-size: 25px; 
+  }
+  
+  
+  .logoreso a  {
+    transition: font-size 0.3s ease; 
+  }
+  
+  .logoreso a:hover  {
+    font-size: 18px; 
+  }

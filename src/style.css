@@ -35,3 +35,17 @@
   .logoreso a:hover  {
     font-size: 18px; 
   }
+
+  .font1 {
+    background-image: url(/assets/img/blog-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+  }
+
+  .font2 {
+    background-image: url(/assets/img/about-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+  }
